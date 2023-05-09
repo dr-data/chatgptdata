@@ -1,0 +1,128 @@
+{
+  "version": 4,
+  "history": [
+    {
+      "id": "2f84622e-c6b8-4579-b0f6-8ee35a5fc502",
+      "name": "What's the meaning of happy? ",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What's the meaning of happy? "
+        },
+        {
+          "role": "assistant",
+          "content": "Happy is an emotional state characterized by feelings of joy, pleasure, contentment, and satisfaction. It is a positive emotion that can be experienced in response to a variety of situations, such as achieving a goal, spending time with loved ones, or simply enjoying a beautiful day. Happiness is subjective and can vary from person to person, but it generally involves a sense of well-being and positive outlook on life."
+        },
+        {
+          "role": "user",
+          "content": "Translate the following into traditional chinese, Japanese, and French:\nHow are you today?"
+        },
+        {
+          "role": "assistant",
+          "content": "How are you today?\n\nTraditional Chinese: 你今天怎麼樣？(nǐ jīn tiān zěn me yàng?)\nJapanese: 今日はお元気ですか？(Kyou wa ogenki desu ka?)\nFrench: Comment allez-vous aujourd'hui ?"
+        },
+        {
+          "role": "user",
+          "content": "Who is the chief executive officer of HKSAR in 2023?"
+        },
+        {
+          "role": "assistant",
+          "content": "As an AI language model, I do not have the ability to predict future events or election outcomes. It is not possible for me to provide an accurate answer to this question. However, the current Chief Executive Officer of the Hong Kong Special Administrative Region (HKSAR) is Carrie Lam, and her term is set to end in 2022. The next Chief Executive Officer will be elected in accordance with the relevant laws and procedures in Hong Kong."
+        },
+        {
+          "role": "user",
+          "content": "Complete the following sentence for 20 words to make a horror story:\nI go to school by bus."
+        },
+        {
+          "role": "assistant",
+          "content": "I go to school by bus, but this morning, the driver's eyes were pitch black and he didn't stop at any of the usual stops. As we approached the school, I realized that none of the other students were breathing."
+        },
+        {
+          "role": "user",
+          "content": "Summarise the following within 30 words:\n\nCluster of COVID-19 cases in North Lantau Hospital\n*****************************************\nThe following is issued on behalf of the Hospital Authority:\n\n     The spokesperson for North Lantau Hospital (NLTH) made the following announcement today (May 9):\n\n     Seven patients (aged 40 to 84) in an extended care ward of NLTH have been presenting with fever or respiratory symptoms and have tested positive for COVID-19 since April 29.\n\n     One patient has recovered and was discharged, while the other patients are in stable condition and are being treated in isolation. Admission and visiting arrangements for the ward concerned have been suspended. Thorough cleaning and disinfection measures have been conducted in the ward concerned, while infection control measures have been enhanced.\n\n     The hospital will continue to closely monitor the situation of the patients. The cases have been reported to the Hospital Authority Head Office and the Centre for Health Protection for necessary follow-up. \n \nEnds/Tuesday, May 9, 2023 \nIssued at HKT 18:03\nNNNN"
+        },
+        {
+          "role": "assistant",
+          "content": "Seven patients in an extended care ward of North Lantau Hospital have tested positive for COVID-19 since April 29. One patient has recovered, while the others are stable. Admission and visiting arrangements for the ward have been suspended."
+        }
+      ],
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "prompt": "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.",
+      "temperature": 0.5,
+      "folderId": null
+    }
+  ],
+  "folders": [],
+  "prompts": [
+    {
+      "id": "52595f64-1d03-4a3f-95c4-14cef262e7eb",
+      "name": "Happy?",
+      "description": "What's the meaning of happy? \n\n",
+      "content": "What's the meaning of happy?",
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "folderId": null
+    },
+    {
+      "id": "fbb0c720-cb1a-4366-94df-c8f57e326048",
+      "name": "Translation",
+      "description": "Translate the following into traditional chinese, Japanese, and French:\nHow are you today?",
+      "content": "Translate the following into traditional chinese, Japanese, and French:\nHow are you today?",
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "folderId": null
+    },
+    {
+      "id": "63d73409-5490-4074-bb83-39f46a439fd6",
+      "name": "Who is the chief executive officer of HKSAR in 2023?",
+      "description": "Who is the chief executive officer of HKSAR in 2023?\n",
+      "content": "Who is the chief executive officer of HKSAR in 2023?",
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "folderId": null
+    },
+    {
+      "id": "7c8bb29e-f2d0-4f1a-a394-b01dd4bdf31f",
+      "name": "Complete the following sentence for 20 words to make a horror story: I go to school by bus.",
+      "description": "Complete the following sentence for 20 words to make a horror story:\nI go to school by bus.",
+      "content": "Complete the following sentence for 20 words to make a horror story:\nI go to school by bus.",
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "folderId": null
+    },
+    {
+      "id": "368681ae-3854-4694-8fa2-5560665b0a86",
+      "name": "Summary",
+      "description": "Summary",
+      "content": "Summarise the following within 30 words:\n\nCluster of COVID-19 cases in North Lantau Hospital\n*****************************************\nThe following is issued on behalf of the Hospital Authority:\n\n     The spokesperson for North Lantau Hospital (NLTH) made the following announcement today (May 9):\n\n     Seven patients (aged 40 to 84) in an extended care ward of NLTH have been presenting with fever or respiratory symptoms and have tested positive for COVID-19 since April 29.\n\n     One patient has recovered and was discharged, while the other patients are in stable condition and are being treated in isolation. Admission and visiting arrangements for the ward concerned have been suspended. Thorough cleaning and disinfection measures have been conducted in the ward concerned, while infection control measures have been enhanced.\n\n     The hospital will continue to closely monitor the situation of the patients. The cases have been reported to the Hospital Authority Head Office and the Centre for Health Protection for necessary follow-up. \n \nEnds/Tuesday, May 9, 2023 \nIssued at HKT 18:03\nNNNN",
+      "model": {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5",
+        "maxLength": 12000,
+        "tokenLimit": 4000
+      },
+      "folderId": null
+    }
+  ]
+}
